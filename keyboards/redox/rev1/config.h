@@ -34,8 +34,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 7
 
 // wiring of each half
-#define MATRIX_ROW_PINS { D4, D7, E6, B4, B5 }
-#define MATRIX_COL_PINS { F5, F6, F7, B1, B3, B2, B6 }
+#define MATRIX_ROW_PINS { F7, F6, F5, F4, B4 }
+#define MATRIX_COL_PINS { B3, B2, B1, C7, D4, D0, D1 }
 // #define MATRIX_COL_PINS { B6, B2, B3, B1, F7, F6, F5} //uncomment this line and comment line above if you need to reverse left-to-right key order
 
 /* COL2ROW or ROW2COL */
@@ -61,9 +61,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 )
 
 /* ws2812 RGB LED */
-#define RGB_DI_PIN D3
+#define RGB_DI_PIN D7
 #define RGBLIGHT_TIMER
-#define RGBLED_NUM 14    // Number of LEDs
+#define RGBLED_NUM 8    // Number of LEDs
 #define ws2812_PORTREG  PORTD
 #define ws2812_DDRREG   DDRD
 
